@@ -165,7 +165,7 @@ h6 {
   display: flex;
   margin: 0px auto;
   justify-content: center;
-  max-width: 401px;
+  flex-wrap: wrap;
 }
 .informations__card-item {
   display: flex;
@@ -182,6 +182,7 @@ h6 {
 }
 .informations__card-item:nth-child(2) {
   background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
+  
 }
 .card__img {
   align-self: flex-start;
@@ -224,7 +225,10 @@ h6 {
 }
 .size {
   width: 286px;
-  height: 33px;
+  color: white;
+}
+.white {
+  color: white;
 }
 .easy__process {
   margin-bottom: 110px;
@@ -696,6 +700,9 @@ h6 {
     width: 193px;
     padding: 20px 20px;
   }
+  .img__businesse {
+    width: 100%;
+  }
 }
 @media screen and (max-width:1111px) {
   .navigation__content {
@@ -722,8 +729,8 @@ h6 {
     display: none;
   }
   .informations__card-list {
-    flex-direction: column;
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
   }
   .informations__card-item {
     margin-right: 0px;
@@ -825,7 +832,6 @@ text-align: center;
   max-width: 282px;
 }
 .informations__card-item {
-  padding: 40px 50px;
   align-items: center;
 }
 .right__block-wrap {
