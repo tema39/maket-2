@@ -21,15 +21,13 @@ h6 {
 }
 .best__solution {
   background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
-  height: 1342px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 51px;
 }
 .header {
-  width: 1283px;
-  height: 119px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,8 +81,6 @@ h6 {
   margin: 10px 0px;
 }
 .top__title-wrap {
-  width: 651px;
-  height: 198px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,6 +96,7 @@ h6 {
   letter-spacing: 0.2px;
   color: #ffffff;
   margin-bottom: 27px;
+  width: 632px;
 }
 .top__subtitle-text {
   font-family: Poppins;
@@ -140,9 +137,11 @@ h6 {
   background: transparent;
   border: 1px solid #ffffff;
 }
+.top__screen {
+  width: 100%;
+}
 .figmaLand {
-  height: 852px;
-  margin-bottom: 51px;
+  margin-bottom: 161px;
 }
 .figmaLand__wrap {
   display: flex;
@@ -152,7 +151,6 @@ h6 {
 .figmaLand__title {
   margin-top: 60px;
   width: 765px;
-  height: 114px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -163,16 +161,15 @@ h6 {
   letter-spacing: 0.2px;
 }
 .informations__card-list {
-  width: 1270px;
-  height: 615px;
   list-style: none;
   display: flex;
   margin: 0px auto;
+  justify-content: center;
+  max-width: 401px;
 }
 .informations__card-item {
-  width: 401px;
-  height: 440px;
   display: flex;
+  padding: 60px 60px 50px 60px;
   flex-direction: column;
   background: #ffffff;
   border: 1px solid #dedede;
@@ -193,12 +190,8 @@ h6 {
   flex: none;
   order: 0;
   width: 70px;
-  height: 102px;
-  margin-top: 60px;
-  margin-left: 60px;
 }
 .card__title {
-  margin-left: 60px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -208,8 +201,6 @@ h6 {
   color: #000000;
   flex: none;
   margin-bottom: 30px;
-  width: 212px;
-  height: 33px;
 }
 .card__text {
   font-family: Poppins;
@@ -219,12 +210,9 @@ h6 {
   line-height: 27px;
   color: #5c5c5c;
   width: 281px;
-  height: 108px;
   margin-bottom: 30px;
-  margin-left: 60px;
 }
 .card__link {
-  margin-left: 60px;
   text-decoration: none;
   font-family: Poppins;
   font-style: normal;
@@ -233,28 +221,21 @@ h6 {
   line-height: 27px;
   letter-spacing: 0.2px;
   color: #03d6f3;
-  width: 85px;
-  height: 27px;
 }
 .size {
   width: 286px;
   height: 33px;
 }
 .easy__process {
-  height: 706px;
-  margin-bottom: 51px;
+  margin-bottom: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .right__block-wrap {
-  width: 505px;
-  height: 317px;
   margin-right: 100px;
 }
 .right__block-title {
-  width: 505px;
-  height: 77px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -265,8 +246,7 @@ h6 {
   margin-bottom: 46px;
 }
 .right__block-text {
-  width: 500px;
-  height: 118px;
+  max-width: 500px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -306,8 +286,7 @@ h6 {
   background: #ffffff;
 }
 .finance {
-  height: 758px;
-  margin-bottom: 51px;
+  margin-bottom: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -316,12 +295,9 @@ h6 {
   margin-right: 100px;
 }
 .finance__operations-wrap {
-  width: 544px;
-  height: 320px;
 }
 .finance__title {
-  width: 524px;
-  height: 114px;
+  max-width: 524px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -332,8 +308,7 @@ h6 {
   margin-bottom: 47px;
 }
 .finance__text {
-  width: 480px;
-  height: 60px;
+  max-width: 480px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -359,19 +334,15 @@ h6 {
 }
 .businesse {
   display: flex;
-  height: 691px;
   justify-content: center;
   align-items: center;
   margin-bottom: 174px;
 }
 .businesse__wrap {
-  width: 426px;
-  height: 479px;
   margin-right: 69px;
 }
 .businesse__title {
-  width: 374px;
-  height: 171px;
+  max-width: 374px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -382,8 +353,7 @@ h6 {
   margin-bottom: 47px;
 }
 .businesse__text {
-  width: 301px;
-  height: 162px;
+  max-width: 301px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -435,12 +405,11 @@ h6 {
 }
 .your__team {
   position: relative;
-  height: 1371px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 123px;
+  margin-bottom: 250px;
 }
 .your__team::before {
   content: "";
@@ -448,7 +417,7 @@ h6 {
   width: 868px;
   height: 1px;
   position: absolute;
-  bottom: 0;
+  bottom: -134px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -473,8 +442,6 @@ h6 {
   margin-bottom: 63px;
 }
 .category__card-list {
-  width: 1071px;
-  height: 1127px;
   display: flex;
   list-style: none;
   justify-content: center;
@@ -483,8 +450,7 @@ h6 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 335px;
-  height: 1067px;
+  padding: 40px 40px;
   margin-right: 33px;
   background: #ffffff;
   border: 1px solid #dedede;
@@ -501,7 +467,6 @@ h6 {
   line-height: 33px;
   letter-spacing: 0.1px;
   color: #000000;
-  margin-top: 50px;
   margin-bottom: 10px;
 }
 .category__text-subtitle {
@@ -550,7 +515,6 @@ h6 {
   order: 4;
   align-self: center;
   flex-grow: 0;
-  margin: 0px 30px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -567,8 +531,6 @@ h6 {
   margin-bottom: 113px;
 }
 .subscribe__wrap {
-  width: 471px;
-  height: 242px;
   text-align: center;
 }
 .subscribe__title {
@@ -621,21 +583,16 @@ h6 {
 }
 .footer {
   background: #112d57;
-  height: 371px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 62px 0px;
 }
 .navigation__content {
   display: flex;
-  width: 1134px;
-  height: 247px;
-  justify-content: space-between;
   align-items: center;
 }
 .left__column-wrap {
-  width: 317px;
-  height: 215px;
+  margin-right: 86px;
 }
 .price__one-list {
   list-style: none;
@@ -676,9 +633,10 @@ h6 {
   color: #ffffff;
   text-decoration: none;
 }
+.center__block-wrap {
+  margin-right: 86px;
+}
 .right__column-wrap {
-  width: 309px;
-  height: 194px;
 }
 .communucation__link {
   display: flex;
@@ -706,4 +664,275 @@ h6 {
 }
 .networks__link {
   margin-right: 32px;
+}
+
+@media screen and (max-width:1400px) {
+}
+@media screen and (max-width:1295px) {
+  .top__link-logo {
+    margin-right: 20px;
+  }
+  .top__menu-item:nth-child(4) {
+    margin-right: 20px;
+  }
+  .informations__card-item {
+    padding: 30px 30px 30px 30px;
+  }
+  .right__block-wrap {
+    margin-right: 0px;
+  }
+  .businesse__wrap {
+    margin-right: 20px;
+    padding: 0px 0px 0px 10px;
+  }
+  .finance__img-wrap {
+    margin-right: 20px;
+  }
+  .businesse__click-butoon {
+    width: 193px;
+    padding: 20px 20px;
+  }
+  .businesse__buttons-click {
+    width: 193px;
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width:1111px) {
+  .navigation__content {
+    padding: 0px 20px;
+  }
+  .informations__card-item {
+    padding: 15px 15px 15px 15px ;
+  }
+  .category__card-item {
+    padding: 20px 20px;
+  }
+  .right__block-wrap {
+    padding-left: 10px;
+  }
+  .networks__link {
+    margin-right: 0px;
+  }
+  .button__sign {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width:1024px) {
+  .top_menu-list {
+    display: none;
+  }
+  .informations__card-list {
+    flex-direction: column;
+    width: 320px;
+  }
+  .informations__card-item {
+    margin-right: 0px;
+    margin-bottom: 64px;
+    text-align: center;
+  }
+  .card__img {
+    align-self: center;
+  }
+  .easy__process {
+    flex-direction: column;
+  }
+  .right__block-buttons {
+    margin-bottom: 98px;
+  }
+  .finance {
+    flex-direction: column;
+  }
+  .businesse {
+    flex-direction: column;
+  }
+  .businesse__wrap {
+  }
+  .businesse__title {
+  }
+  .businesse__text {
+  }
+  .businesse__buttons {
+    padding-top: 79px;
+    margin-bottom: 79px;
+  }
+  .img__businesse-wrap {
+    padding: 0px 20px;
+  }
+  .img__businesse {
+    width: 100%;
+  }
+  .your__team {
+    position: relative; 
+  }
+  .your__team::before {
+    content: "";
+    background-color: #cdcdcd;
+    width: 450px;
+    height: 1px;
+    position: absolute;
+  }
+  .category__card-list {
+    flex-direction: column;
+  }
+  .category__card-item {
+    margin-right: 0px;
+    margin-bottom: 33px;
+    padding: 40px 40px;
+  }
+  .navigation__content {
+    flex-direction: column;
+  }
+  .left__column-wrap {
+    margin-right: 0px;
+    margin-bottom: 87px;
+  }
+  .center__block-wrap {
+    margin-right: 0px;
+    margin-bottom: 97px;
+  }
+  .networks__link {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width:635px) {
+.top__button {
+  padding: 18px 29px;
+}
+  .top__title {
+  font-weight: 400;
+  max-width: 352px;
+  width: 100%;
+  margin: 0px auto;
+  padding-bottom: 27px;
+}
+.top__subtitle-text {
+  max-width: 334px;
+  width: 100%;
+}
+.butoons__wrap {
+text-align: center;
+}
+.button__started {
+  margin-bottom: 13px;
+  max-width: 252px;
+  width: 100%;
+}
+.button__free {
+  max-width: 252px;
+  width: 100%;
+}
+.figmaLand__title {
+  max-width: 282px;
+}
+.informations__card-item {
+  padding: 40px 50px;
+  align-items: center;
+}
+.right__block-wrap {
+  text-align: center;
+}
+.right__block-title {
+  max-width: 303px;
+  margin: 0px auto;
+}
+.right__block-text {
+  max-width: 335px;
+  padding-top: 27px;
+  margin: 0px auto;
+  padding-bottom: 35px;
+}
+.button__sign {
+  width: 100%;
+  max-width: 320px;
+  padding: 20px 20px;
+  margin-bottom: 22px;
+}
+.button__more {
+  width: 100%;
+  max-width: 320px;
+}
+.chart__img {
+  width: 100%;
+}
+.finance__title {
+  max-width: 326px;
+}
+.finance__text {
+  max-width: 330px;
+}
+.finance__img {
+  width: 100%;
+}
+.finance__operations-wrap {
+  text-align: center;
+}
+.businesse__title {
+  text-align: center;
+}
+.businesse__text {
+  max-width: 320px;
+  text-align: center;
+  margin: 0px auto;
+}
+.businesse__buttons {
+  flex-direction: column;
+  text-align: center;
+}
+.businesse__click-butoon {
+  width: 100%;
+  max-width: 294px;
+  margin-bottom: 12px;
+}
+.businesse__buttons-click {
+  width: 100%;
+  max-width: 281px;
+}
+.title__team {
+  max-width: 340px;
+}
+.team__subtitle-text {
+  max-width: 281px;
+  text-align: center;
+}
+.subscribe__input {
+  width: 100%;
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 12px;
+  margin-right: 0px;
+}
+.subscribe__button {
+  width: 100%;
+  border-radius: 0px;
+}
+.center__picture {
+  width: 100%;
+}
+.your__team::before {
+width: 320px;
+}
+}
+@media screen and (max-width:360px) {
+  .top__menu-wrap {
+    flex-direction: column;
+  }
+  .title__team {
+    text-align: center;
+  }
+  .category__card-item {
+    padding: 5px 5px;
+  }
+  .your__team::before {
+    content: "";
+    background-color: #cdcdcd;
+    width: 250px;
+    height: 1px;
+    position: absolute;
+}
+.navigation__content {
+  padding: 0px 0px;
+}
+.center__picture {
+  padding: 0px 5px;
+}
 }
